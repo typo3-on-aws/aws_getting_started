@@ -1,0 +1,166 @@
+/**
+ * TYPO3 Extension "AWS Getting Started Screen"
+ *
+ * Author: Michael Schams <schams.net>
+ * https://typo3-on-aws.org
+ */
+
+a,
+a:hover,
+a:focus {
+    color: #0000ff;
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+nav img.typo3logo {
+    height: 32px;
+    width: 32px;
+    margin: 10px 10px 0 0;
+}
+
+nav a.btn-typo3-backend {
+    background-color: #ff8700;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    margin: 8px 0 0 0;
+}
+
+nav a.btn-typo3-backend:focus,
+nav a.btn-typo3-backend:hover {
+    color: black;
+    background-color: white;
+}
+
+.navbar-typo3 {
+    background-color: #ff8700;
+}
+
+.navbar-typo3 .navbar-nav a {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-typo3 .navbar-nav a,
+.navbar-typo3 .navbar-nav a:hover {
+    background-color: unset;
+}
+
+.navbar-typo3 .navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+.navbar-typo3 .navbar-nav > .active > a,
+.navbar-typo3 .navbar-nav > .active > a:focus,
+.navbar-typo3 .navbar-nav > .active > a:hover {
+    background-color: unset;
+    text-decoration: underline;
+}
+
+div.content {
+    margin-top: 60px;
+    font-size: 1.4em;
+}
+
+div.content .btn-typo3-readmore {
+    background-color: #ff8700;
+    color: white;
+}
+
+div.content .btn-typo3-readmore:hover {
+    background-color: #eea236;
+}
+
+div.content .glyphicon-margin-left,
+div.content .button-margin-left {
+    margin-left: 10px;
+}
+
+div.content .margin-right {
+    margin-right: 10px;
+}
+
+div.content .margin-top {
+    margin-top: 40px;
+}
+
+div.content code {
+    color: #666666;
+    font-size: 90% !important;
+    padding: 2px 8px;
+}
+
+div.content pre {
+    background-color: #202020;
+    color: white;
+    margin: 20px 0;
+    border: none;
+}
+
+div.content .panel-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.content .panel-title a.btn {
+    color: white;
+}
+
+div.content .panel-subheader {
+    color: #808080;
+    font-weight: bold;
+}
+
+div.content .panel p i.fa-slack {
+    color: #808080;
+    margin-right: 20px;
+}
+
+div.content .panel div.smaller p {
+    font-size: 0.8em;
+}
+
+.modal-dialog {
+    width: 960px !important;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 0 !important;
+    overflow: auto;
+    max-height: 600px;
+}
+
+.modal-footer {
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+    nav img.typo3logo {
+        margin-left: 10px;
+    }
+    .nav > li {
+        padding-left: 12px;
+    }
+    nav a.btn.backend-login-button {
+        float: left !important;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div.content {
+        font-size: 1.2em;
+    }
+    div.content h1 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+}
