@@ -11,7 +11,7 @@ $EM_CONF[$_EXTKEY] = array (
     'title' => 'AWS Getting Started Screen',
     'description' => 'Simple start screen with basic information for the TYPO3-on-AWS machine image.',
     'category' => 'fe',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'state' => 'stable',
     'createDirs' => '',
     'clearcacheonload' => true,
@@ -20,8 +20,8 @@ $EM_CONF[$_EXTKEY] = array (
     'author_company' => '',
     'constraints' => array (
         'depends' => array (
-            'php' => '7.0.0-7.99.99',
-            'typo3' => '8.7.0-8.7.99',
+            'php' => '5.6.0-7.99.99',
+            'typo3' => '7.6.0-8.7.99',
         ),
         'conflicts' => array (
         ),
