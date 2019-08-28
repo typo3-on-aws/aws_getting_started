@@ -1,0 +1,19 @@
+<!-- Access Details -->
+<section class="section access-details" id="access-details">
+	<div class="container">
+		<h2>Access Details</h2>
+
+		<p>
+			Random passwords and other access details are automatically generated when you launch the EC2 instance the first time. They are stored in a text file <code>/home/admin/.accessdetails</code> on the server.
+		</p>
+		<p>
+			To retrieve these credentials, login to the server via SSH (user name: <code>admin</code>) and use the private SSH key you set up during the EC2 instance launch. If you are using the command line, this could be as easy as executing the following command (where <code>private.key</code> is your private key file):
+		</p>
+		<pre class="rounded">ssh -i private.key admin@{hostname}</pre>
+		<p>
+			All access details required for TYPO3 CMS will be displayed. If you have any problems retrieving the access details, please refer to the
+			<a class="js-scroll-trigger" href="#documentation">documentation</a>.
+		</p>
+
+	</div>
+</section>

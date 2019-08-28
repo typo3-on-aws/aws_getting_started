@@ -5,162 +5,119 @@
  * https://typo3-on-aws.org
  */
 
-a,
-a:hover,
-a:focus {
-    color: #0000ff;
-    outline: none;
+body {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-button::-moz-focus-inner {
-    border: 0;
+p,
+.alert {
+	font-size: 1.2rem;
 }
 
-nav img.typo3logo {
-    height: 32px;
-    width: 32px;
-    margin: 10px 10px 0 0;
+.navbar {
+	background-color: #ff8700;
+}
+.navbar .navbar-brand {
+	color: white;
 }
 
-nav a.btn-typo3-backend {
-    background-color: #ff8700;
-    border-color: white;
-    color: white;
-    font-weight: bold;
-    margin: 8px 0 0 0;
+.navbar .nav-link {
+	color: black;
 }
 
-nav a.btn-typo3-backend:focus,
-nav a.btn-typo3-backend:hover {
-    color: black;
-    background-color: white;
+.navbar .nav-link i.fas {
+	margin-right: .4rem;
 }
 
-.navbar-typo3 {
-    background-color: #ff8700;
+.masthead {
+	background-color: white;
+ 	padding-top: 6rem;
+	min-height: 100vh;
 }
 
-.navbar-typo3 .navbar-nav a {
-    font-weight: bold;
-    color: white;
+.masthead h1 {
+    font-family: 'Fjalla One', sans-serif;
+	font-weight: bold;
+	font-size: 4rem;
+	color: #444444;
 }
 
-.navbar-typo3 .navbar-nav a,
-.navbar-typo3 .navbar-nav a:hover {
-    background-color: unset;
+.masthead p {
+	font-size: 1.4rem;
 }
 
-.navbar-typo3 .navbar-nav a:hover {
-    text-decoration: underline;
+.masthead p .btn-typo3 {
+	margin-left: 0.6rem;
 }
 
-.navbar-typo3 .navbar-nav > .active > a,
-.navbar-typo3 .navbar-nav > .active > a:focus,
-.navbar-typo3 .navbar-nav > .active > a:hover {
-    background-color: unset;
-    text-decoration: underline;
+.masthead .card-body {
+	min-height: 12rem;
 }
 
-div.content {
-    margin-top: 60px;
-    font-size: 1.4em;
+.masthead .card-body .card-text {
+	font-size: 1.2rem;
 }
 
-div.content .btn-typo3-readmore {
-    background-color: #ff8700;
-    color: white;
+.masthead .card-footer {
+	background-color: unset;
+	border-top: none;
+}
+/*
+ .masthead {
+	padding-top: calc(6rem + 74px);
+	padding-bottom: 6rem;
+}
+*/
+
+.section {
+	min-height: 100vh;
+	padding-top: 2rem;
 }
 
-div.content .btn-typo3-readmore:hover {
-    background-color: #eea236;
+.section.access-details {
+	background-color: #eeeeee;
 }
 
-div.content .glyphicon-margin-left,
-div.content .button-margin-left {
-    margin-left: 10px;
+.section.documentation {
+	background-color: #dddddd;
 }
 
-div.content .margin-right {
-    margin-right: 10px;
+.section.backend-login {
+	background-color: white;
 }
 
-div.content .margin-top {
-    margin-top: 40px;
+.btn-typo3 {
+	color: #eeeeee;
+	font-weight: bold;
+	background-color: #ff8700;
+	border-color: #ff8700;
 }
 
-div.content code {
-    color: #666666;
-    font-size: 90% !important;
-    padding: 2px 8px;
+.btn-typo3:hover {
+	color: white;
 }
 
-div.content pre {
-    background-color: #202020;
-    color: white;
-    margin: 20px 0;
-    border: none;
+code {
+	color: #444444;
+	font-weight: bold;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
 }
 
-div.content .panel-title {
-    font-size: 1em;
-    font-weight: bold;
+pre {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 1rem;
 }
 
-div.content .panel-title a.btn {
-    color: white;
+@media screen and (max-width: 992px) {
 }
 
-div.content .panel-subheader {
-    color: #808080;
-    font-weight: bold;
+.bg-orange {
+	background-color: #ff8700;
 }
 
-div.content .panel p i.fa-slack {
-    color: #808080;
-    margin-right: 20px;
-}
-
-div.content .panel div.smaller p {
-    font-size: 0.8em;
-}
-
-.modal-dialog {
-    width: 960px !important;
-}
-
-.modal-title {
-    font-weight: bold;
-}
-
-.modal-body {
-    padding: 0 !important;
-    overflow: auto;
-    max-height: 600px;
-}
-
-.modal-footer {
-    margin-top: 0 !important;
-}
-
-@media screen and (max-width: 768px) {
-    nav img.typo3logo {
-        margin-left: 10px;
-    }
-    .nav > li {
-        padding-left: 12px;
-    }
-    nav a.btn.backend-login-button {
-        float: left !important;
-        margin: 0 0 20px 0;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    div.content {
-        font-size: 1.2em;
-    }
-    div.content h1 {
-        font-size: 26px;
-        font-weight: bold;
-    }
+.bg-grey {
+	background-color: #f2f4f4;
 }

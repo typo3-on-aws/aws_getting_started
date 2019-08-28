@@ -7,25 +7,24 @@
  * https://typo3-on-aws.org
  */
 
-$EM_CONF[$_EXTKEY] = array (
+$EM_CONF[$_EXTKEY] = [
     'title' => 'AWS Getting Started Screen',
-    'description' => 'Simple start screen with basic information for the TYPO3-on-AWS machine image.',
+    'description' => 'Simple start screen with basic information for the TYPO3-on-AWS machine image',
     'category' => 'fe',
-    'version' => '1.0.1',
+    'version' => '10.0.0',
     'state' => 'stable',
-    'createDirs' => '',
     'clearcacheonload' => true,
     'author' => 'Michael Schams <schams.net>',
     'author_email' => '',
-    'author_company' => '',
-    'constraints' => array (
-        'depends' => array (
-            'php' => '5.6.0-7.99.99',
-            'typo3' => '7.6.0-8.7.99',
-        ),
-        'conflicts' => array (
-        ),
-        'suggests' => array (
-        ),
-    ),
-);
+    'author_company' => 'schams.net',
+    'constraints' => [
+        'depends' => [
+            'php' => '7.2.0-7.3.99',
+            'typo3' => '10.0.0-10.5.99',
+        ],
+        'conflicts' => [
+        ],
+        'suggests' => [
+        ]
+    ]
+];

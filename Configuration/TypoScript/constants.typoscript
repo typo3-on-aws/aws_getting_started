@@ -1,0 +1,9 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+
+page {
+  fluidtemplate {
+    layoutRootPath = EXT:aws_getting_started/Resources/Private/Layouts/
+    partialRootPath = EXT:aws_getting_started/Resources/Private/Partials/
+    templateRootPath = EXT:aws_getting_started/Resources/Private/Templates/
+  }
+}
