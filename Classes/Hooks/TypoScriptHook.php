@@ -49,15 +49,19 @@ class TypoScriptHook
         // Read constants and setup files
         $path = ExtensionManagementUtility::extPath($this->extensionKey);
         $constantsFile = $path . 'Configuration/TypoScript/constants.typoscript';
-        $constants = (string)@file_get_contents($constantsFile);
+        if (file_exists($constantsFile)) {
+            $constants = (string)@file_get_contents($constantsFile);
+        }
         $setupFile = $path . 'Configuration/TypoScript/setup.typoscript';
-        $setup = (string)@file_get_contents($setupFile);
+        if (file_exists($setupFile)) {
+            $setup = (string)@file_get_contents($setupFile);
+        }
 
         // Prepare a fake row for sys_template
         $row = [
-            'uid' => 'aws_getting_started',
-            'constants' => $constants,
-            'config' => $setup,
+            'uid' => $this->$extensionKey,
+            'constants' => $constants ? $constants : '',
+            'config' => $setup ? $setup : '',
             'tstamp' => $setup ? filemtime($setupFile) : time(),
             'root' => !$hasRootTemplate,
             'clear' => 3,
