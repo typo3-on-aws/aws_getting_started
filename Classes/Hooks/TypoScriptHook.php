@@ -38,9 +38,6 @@ class TypoScriptHook
      */
     public function addCustomTypoScriptTemplate(&$hookParameters, TemplateService $templateService)
     {
-        /** @var $logger \TYPO3\CMS\Core\Log\Logger */
-        $this->logger = GeneralUtility::makeInstance('TYPO3\CMS\Core\Log\LogManager')->getLogger(__CLASS__);
-
         // Let's copy the rootline value, as $templateService->processTemplate() might reset it
         $rootLine = $hookParameters['rootLine'];
         if (!is_array($rootLine) || empty($rootLine)) {

@@ -1,5 +1,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:aws_getting_started/Configuration/TypoScript/Helper/DynamicContent.typoscript">
 
 page = PAGE
 page {
@@ -26,15 +25,6 @@ page {
       key.data = pagelayout
       default = TEXT
       default.value = Content
-    }
-
-    dataProcessing {
-      10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
-      10 {
-        levels = 1
-        includeSpacer = 1
-        as = mainnavigation
-      }
     }
 
 	variables {
