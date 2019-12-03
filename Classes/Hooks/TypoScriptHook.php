@@ -5,7 +5,7 @@ namespace Typo3OnAws\AwsGettingStarted\Hooks;
  * TYPO3 Extension "AWS Getting Started Screen"
  *
  * Author: Michael Schams <schams.net>
- * https://typo3-on-aws.org
+ * https://t3rrific.com/typo3-on-aws/
  */
 
 use TYPO3\CMS\Core\TypoScript\TemplateService;

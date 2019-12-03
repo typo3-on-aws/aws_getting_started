@@ -2,7 +2,7 @@
 	"name": "typo3-on-aws/aws-getting-started",
 	"type": "typo3-cms-extension",
 	"description": "Simple start screen with basic information for the TYPO3-on-AWS machine image.",
-	"homepage": "https://typo3-on-aws.org",
+	"homepage": "https://t3rrific.com/typo3-on-aws/",
 	"config": {
 		"sort-packages": true
 	},
