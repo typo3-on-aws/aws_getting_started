@@ -3,14 +3,17 @@
 	"type": "typo3-cms-extension",
 	"description": "Simple start screen with basic information for the TYPO3-on-AWS machine image.",
 	"homepage": "https://t3rrific.com/typo3-on-aws/",
+	"authors": [
+		{
+			"name": "Michael Schams",
+			"role": "Developer"
+		}
+	],
 	"config": {
 		"sort-packages": true
 	},
 	"require": {
 		"typo3/cms-core": "^10"
-	},
-	"conflict": {
-		"typo3/cms": "*"
 	},
 	"autoload": {
 		"psr-4": {
