@@ -42,7 +42,7 @@ page {
     fontawesome = https://use.fontawesome.com/releases/v5.9.0/css/all.css
     fontawesome.integrity = sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E
     fontawesome.external = 1
-    googleFont = https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap
+    googleFont = https://fonts.googleapis.com/css2?family=Doppio+One&family=Source+Sans+Pro&display=swap
     googleFont.external = 1
     #fullPage = EXT:aws_getting_started/Resources/Public/Css/fullpage.min.css
     custom = EXT:aws_getting_started/Resources/Public/Css/custom.css

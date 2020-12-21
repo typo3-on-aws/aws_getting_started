@@ -31,14 +31,19 @@ p,
 
 .masthead {
 	background-color: white;
- 	padding-top: 6rem;
+	padding-top: 4rem;
 	min-height: 100vh;
 }
 
+.masthead img.logo {
+	width: 160px;
+	height: 160px;
+}
+
 .masthead h1 {
-    font-family: 'Fjalla One', sans-serif;
+	font-family: 'Doppio One', sans-serif;
 	font-weight: bold;
-	font-size: 4rem;
+	font-size: 3rem;
 	color: #444444;
 }
 
@@ -84,6 +89,10 @@ p,
 
 .section.backend-login {
 	background-color: white;
+}
+
+.section.documentation img.logo {
+	margin: 0 auto;
 }
 
 .btn-typo3 {
