@@ -13,6 +13,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"php": ">=7.4.0",
 		"typo3/cms-core": "^10 || ^11"
 	},
 	"extra": {
@@ -24,9 +25,5 @@
 		"psr-4": {
 			"Typo3OnAws\\AwsGettingStarted\\": "Classes"
 		}
-	},
-	"replace": {
-		"aws_getting_started": "self.version",
-		"typo3-ter/aws-getting-started": "self.version"
 	}
 }
