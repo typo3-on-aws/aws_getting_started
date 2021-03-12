@@ -15,6 +15,11 @@
 	"require": {
 		"typo3/cms-core": "^10 || ^11"
 	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "aws_getting-started"
+		}
+	},
 	"autoload": {
 		"psr-4": {
 			"Typo3OnAws\\AwsGettingStarted\\": "Classes"
